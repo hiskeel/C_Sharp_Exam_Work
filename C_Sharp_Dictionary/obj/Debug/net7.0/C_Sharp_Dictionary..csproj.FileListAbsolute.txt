@@ -1,0 +1,15 @@
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\C_Sharp_Dictionary..exe
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\C_Sharp_Dictionary..deps.json
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\C_Sharp_Dictionary..runtimeconfig.json
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\C_Sharp_Dictionary..dll
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\C_Sharp_Dictionary..pdb
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..csproj.AssemblyReference.cache
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..GeneratedMSBuildEditorConfig.editorconfig
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..AssemblyInfoInputs.cache
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..AssemblyInfo.cs
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..csproj.CoreCompileInputs.cache
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..dll
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\refint\C_Sharp_Dictionary..dll
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..pdb
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..genruntimeconfig.cache
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\ref\C_Sharp_Dictionary..dll

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4w4zyy+xltlwoZlba5rYJFFE8y8PvgyJulJ/KG6IqkWl/n38MWELS1zF+lfCo1HbyfWV+OihgP4/4GYi2izq9A==",
+  "dgSpecHash": "Hr6JoA31THvP63cJdA1UwfWfpHa1kdxDE+vQptddTpH85I5iLWZbpyQ+uszfaL7pZIkGnPjrQGGP9AvL6O2aZg==",
   "success": true,
   "projectFilePath": "D:\\C_Sharp_Dictionary\\C_Sharp_Dictionary\\C_Sharp_Dictionary..csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

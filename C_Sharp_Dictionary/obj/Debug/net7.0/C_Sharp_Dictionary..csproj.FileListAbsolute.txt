@@ -13,3 +13,5 @@ D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\refint\C_Sharp_Diction
 D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..pdb
 D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..genruntimeconfig.cache
 D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\ref\C_Sharp_Dictionary..dll
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\C_Sharp_Dictionary\C_Sharp_Dictionary\obj\Debug\net7.0\C_Sharp_Dictionary..csproj.CopyComplete

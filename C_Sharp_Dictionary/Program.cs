@@ -17,8 +17,8 @@ namespace C_Sharp_Dictionary_
             bool back = false;
             try
             {
-                List<string> dicts = dict.LoadDictionariesListFromFile();
-                foreach (var item in dicts)
+                //List<string> dicts = dict.LoadDictionariesListFromFile();
+                foreach (var item in dict.LoadDictionariesListFromFile())
                 {
                     dict.LoadDictionaryFromFile($"{item}.json");
                 }
@@ -70,6 +70,7 @@ namespace C_Sharp_Dictionary_
                                         break;
 
                                     case "5":
+                                        Console.Clear();
                                         dict.ShowDictionary(dictName);
                                         menu.Clear();
                                         break;
@@ -78,6 +79,10 @@ namespace C_Sharp_Dictionary_
                                         Console.WriteLine("Введіть слово яке ви хочете Експортувати в окремий файл");
                                         string word = Console.ReadLine();
                                         dict.ExportWordToFile(dictName, word);
+                                        menu.Clear(); 
+                                        break;
+                                    case "7":
+                                        dict.SortDictionaryByAlphabet(dictName);
                                         menu.Clear();
                                         break;
                                     case "9":

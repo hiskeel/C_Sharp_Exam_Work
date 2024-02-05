@@ -42,7 +42,7 @@ namespace C_Sharp_Dictionary_
                         {
                             Console.Write("Введіть переклад вашого слова(Щоб принити ввід перекладу введіть\" 0 \"): ");
                             string wordTranslation = Console.ReadLine();
-                            if (wordTranslation == "0")
+                            if (wordTranslation == "0" || string.IsNullOrWhiteSpace(wordTranslation))
                             {
                                 exit = true;
                             }
@@ -60,7 +60,7 @@ namespace C_Sharp_Dictionary_
                         {
                             Console.Write("Введіть переклад вашого слова(Щоб принити ввід перекладу введіть\" 0 \"): ");
                             string wordTranslation = Console.ReadLine();
-                            if (wordTranslation == "0")
+                            if (wordTranslation == "0" || string.IsNullOrWhiteSpace(wordTranslation))
                             {
                                 exit = true;
                             }
@@ -104,6 +104,15 @@ namespace C_Sharp_Dictionary_
             }
           
         }
+        public void SortDictionaryByAlphabet(string dictName)
+        {
+            dictionaries[dictName] = dictionaries[dictName].OrderBy(pair => pair.Key, StringComparer.OrdinalIgnoreCase).ToDictionary(pair => pair.Key, pair => pair.Value); 
+            Console.WriteLine("Словник було відсортовано за алфавітом!.");
+
+        }
+
+       
+    
         public void DeleteWordOrTranslation(string dictName)
         {
             Console.WriteLine("1. Видалити слово повністю\n2. Видалити переклад слова");
@@ -151,7 +160,7 @@ namespace C_Sharp_Dictionary_
         {
 
             bool exit = false;
-            Console.WriteLine("Оберіть словник до якого ви хочете додати нове слово:");
+            
             
             Console.WriteLine("Введіть слово яке ви хочете додати:");
             string word = Console.ReadLine();
@@ -164,7 +173,7 @@ namespace C_Sharp_Dictionary_
                 {
                     Console.Write("Введіть переклад вашого слова(Щоб принити ввід перекладу введіть\" 0 \"): ");
                     string wordTranslation = Console.ReadLine();
-                    if (wordTranslation == "0")
+                    if (wordTranslation == "0"|| string.IsNullOrWhiteSpace(wordTranslation))
                     {
                         exit = true;
                     }
@@ -245,12 +254,8 @@ namespace C_Sharp_Dictionary_
         {
             try
             {
-                List<string> dictionariesList = new List<string>();
-                foreach (var item in dictionaries.Keys)
-                {
-                    dictionariesList.Add(item);
-                }
-                string json = JsonConvert.SerializeObject(dictionariesList, Newtonsoft.Json.Formatting.Indented);
+               
+                string json = JsonConvert.SerializeObject(dictionaries.Keys, Newtonsoft.Json.Formatting.Indented);
                 File.WriteAllText("Dictionaries.json", json);
                 Console.WriteLine($"Список словників збережено до файлу 'Dictionaries.json'.");
             }
@@ -347,5 +352,7 @@ namespace C_Sharp_Dictionary_
                 Console.WriteLine($"Слова '{word}' не існує у словнику: '{dictName}'.");
             }
         }
+
+       
     }
 }
